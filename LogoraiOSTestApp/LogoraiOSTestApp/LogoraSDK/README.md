@@ -1,0 +1,3 @@
+# LogoraSDK
+
+Logora iOS SDK
