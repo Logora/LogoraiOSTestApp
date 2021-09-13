@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     }
     
     func initLayout() {
-        let widget: WidgetView! = WidgetView(applicationName: "logora-demo", pageUid: "3681")
+        let widget: WidgetView! = WidgetView(applicationName: "logora-demo", pageUid: "e0a5e418-897c-40c3-8899-2f1152f8db52")
         self.view.addSubview(widget)
         
         widget.clipsToBounds = true
