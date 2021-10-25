@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C51C75742726DF0F00F11782 /* LogoraSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C51C75732726DF0F00F11782 /* LogoraSDK */; };
 		C5501B7C26B708C2008CAB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5501B7B26B708C2008CAB52 /* AppDelegate.swift */; };
 		C5501B7E26B708C2008CAB52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5501B7D26B708C2008CAB52 /* SceneDelegate.swift */; };
 		C5501B8026B708C2008CAB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5501B7F26B708C2008CAB52 /* ViewController.swift */; };
 		C5501B8326B708C2008CAB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5501B8126B708C2008CAB52 /* Main.storyboard */; };
 		C5501B8526B708C3008CAB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5501B8426B708C3008CAB52 /* Assets.xcassets */; };
 		C5501B8826B708C3008CAB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5501B8626B708C3008CAB52 /* LaunchScreen.storyboard */; };
-		C5501C9F26B70DF0008CAB52 /* LogoraSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C5501C9E26B70DF0008CAB52 /* LogoraSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,6 @@
 		C5501B8426B708C3008CAB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5501B8726B708C3008CAB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5501B8926B708C3008CAB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5501C9C26B70DE5008CAB52 /* LogoraSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LogoraSDK; path = ../../../LogoraSDK/LogoraSDK; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5501C9F26B70DF0008CAB52 /* LogoraSDK in Frameworks */,
+				C51C75742726DF0F00F11782 /* LogoraSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +59,6 @@
 		C5501B7A26B708C2008CAB52 /* LogoraiOSTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				C5501C9C26B70DE5008CAB52 /* LogoraSDK */,
 				C5501B7B26B708C2008CAB52 /* AppDelegate.swift */,
 				C5501B7D26B708C2008CAB52 /* SceneDelegate.swift */,
 				C5501B7F26B708C2008CAB52 /* ViewController.swift */,
@@ -96,7 +94,7 @@
 			);
 			name = LogoraiOSTestApp;
 			packageProductDependencies = (
-				C5501C9E26B70DF0008CAB52 /* LogoraSDK */,
+				C51C75732726DF0F00F11782 /* LogoraSDK */,
 			);
 			productName = LogoraiOSTestApp;
 			productReference = C5501B7826B708C2008CAB52 /* LogoraiOSTestApp.app */;
@@ -125,6 +123,9 @@
 				Base,
 			);
 			mainGroup = C5501B6F26B708C2008CAB52;
+			packageReferences = (
+				C51C75722726DF0F00F11782 /* XCRemoteSwiftPackageReference "LogoraiOSSDK" */,
+			);
 			productRefGroup = C5501B7926B708C2008CAB52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -303,6 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W58F56L5X;
 				INFOPLIST_FILE = LogoraiOSTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,6 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W58F56L5X;
 				INFOPLIST_FILE = LogoraiOSTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -356,9 +359,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		C51C75722726DF0F00F11782 /* XCRemoteSwiftPackageReference "LogoraiOSSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Logora/LogoraiOSSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		C5501C9E26B70DF0008CAB52 /* LogoraSDK */ = {
+		C51C75732726DF0F00F11782 /* LogoraSDK */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = C51C75722726DF0F00F11782 /* XCRemoteSwiftPackageReference "LogoraiOSSDK" */;
 			productName = LogoraSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

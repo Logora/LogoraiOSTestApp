@@ -6,26 +6,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "App Container"
-        if #available(iOS 13.0, *) {
-            initLayout()
-        }
+        title = "Retour à l'article"
+        initLayout()
     }
     
     func initLayout() {
-        let vc = LogoraApp(applicationName: "logora-demo", routeName: "INDEX")
-        self.navigationController!.pushViewController(vc, animated: true)
-        //let widget: WidgetView! = WidgetView(applicationName: "logora-demo", pageUid: "e0a5e418-897c-40c3-8899-2f1152f8db52")
-        //self.view.addSubview(widget)
-        //widget.clipsToBounds = true
-        /*
+        let widget: WidgetView! = WidgetView(applicationName: "logora-demo", pageUid: "1162254885")
+        self.view.addSubview(widget)
+        widget.clipsToBounds = true
         widget.snp.makeConstraints { (make) in
             make.centerY.equalTo(self.view.snp.centerY)
             make.left.equalTo(self.view).offset(15)
             make.right.equalTo(self.view).offset(-15)
             make.height.greaterThanOrEqualTo(100)
         }
-        */
     }
 }
 

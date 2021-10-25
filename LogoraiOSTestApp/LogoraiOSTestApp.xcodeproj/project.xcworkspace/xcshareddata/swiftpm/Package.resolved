@@ -6,8 +6,17 @@
         "repositoryURL": "https://github.com/onevcat/Kingfisher",
         "state": {
           "branch": null,
-          "revision": "44450a8f564d7c0165f736ba2250649ff8d3e556",
-          "version": "6.3.0"
+          "revision": "d06df9adf50ed8cde5786d935836a5f445f780ba",
+          "version": "6.3.1"
+        }
+      },
+      {
+        "package": "LogoraSDK",
+        "repositoryURL": "https://github.com/Logora/LogoraiOSSDK",
+        "state": {
+          "branch": null,
+          "revision": "a950b126383abce2a96b41cbad2cad4bf94d6f90",
+          "version": "0.1.1"
         }
       },
       {
