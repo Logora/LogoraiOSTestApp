@@ -8,8 +8,6 @@
 import UIKit
 import LogoraSDK
 
-
-
 class ViewController: UIViewController {
       
     override func viewDidLoad() {

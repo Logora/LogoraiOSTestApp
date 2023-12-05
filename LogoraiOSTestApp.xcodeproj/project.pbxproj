@@ -11,9 +11,9 @@
 		C56BBD112B1F70BF00CDABC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56BBD102B1F70BF00CDABC4 /* SceneDelegate.swift */; };
 		C56BBD132B1F70BF00CDABC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56BBD122B1F70BF00CDABC4 /* ViewController.swift */; };
 		C56BBD162B1F70BF00CDABC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56BBD142B1F70BF00CDABC4 /* Main.storyboard */; };
-		C56BBD182B1F70C300CDABC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56BBD172B1F70C300CDABC4 /* Assets.xcassets */; };
 		C56BBD1B2B1F70C300CDABC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56BBD192B1F70C300CDABC4 /* LaunchScreen.storyboard */; };
-		C56BBD242B1F70DD00CDABC4 /* LogoraSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C56BBD232B1F70DD00CDABC4 /* LogoraSDK */; };
+		C56BBD352B1F7DCA00CDABC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56BBD342B1F7DCA00CDABC4 /* Assets.xcassets */; };
+		C56BBD372B1F7EDF00CDABC4 /* LogoraSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C56BBD362B1F7EDF00CDABC4 /* LogoraSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +22,11 @@
 		C56BBD102B1F70BF00CDABC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C56BBD122B1F70BF00CDABC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C56BBD152B1F70BF00CDABC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C56BBD172B1F70C300CDABC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C56BBD1A2B1F70C300CDABC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C56BBD1C2B1F70C300CDABC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56BBD342B1F7DCA00CDABC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/LogoraiOSSDK/Sources/LogoraSDK/Assets.xcassets; sourceTree = "<group>"; };
+		C56BBD3A2B1F7F7D00CDABC4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		C56BBD3B2B1F7F7D00CDABC4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C56BBD242B1F70DD00CDABC4 /* LogoraSDK in Frameworks */,
+				C56BBD372B1F7EDF00CDABC4 /* LogoraSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,11 +61,11 @@
 		C56BBD0D2B1F70BF00CDABC4 /* LogoraiOSTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				C56BBD342B1F7DCA00CDABC4 /* Assets.xcassets */,
 				C56BBD0E2B1F70BF00CDABC4 /* AppDelegate.swift */,
 				C56BBD102B1F70BF00CDABC4 /* SceneDelegate.swift */,
 				C56BBD122B1F70BF00CDABC4 /* ViewController.swift */,
 				C56BBD142B1F70BF00CDABC4 /* Main.storyboard */,
-				C56BBD172B1F70C300CDABC4 /* Assets.xcassets */,
 				C56BBD192B1F70C300CDABC4 /* LaunchScreen.storyboard */,
 				C56BBD1C2B1F70C300CDABC4 /* Info.plist */,
 			);
@@ -94,7 +96,7 @@
 			);
 			name = LogoraiOSTestApp;
 			packageProductDependencies = (
-				C56BBD232B1F70DD00CDABC4 /* LogoraSDK */,
+				C56BBD362B1F7EDF00CDABC4 /* LogoraSDK */,
 			);
 			productName = LogoraiOSTestApp;
 			productReference = C56BBD0B2B1F70BF00CDABC4 /* LogoraiOSTestApp.app */;
@@ -121,8 +123,11 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = C56BBD022B1F70BE00CDABC4;
+			packageReferences = (
+			);
 			productRefGroup = C56BBD0C2B1F70BF00CDABC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C56BBD1B2B1F70C300CDABC4 /* LaunchScreen.storyboard in Resources */,
-				C56BBD182B1F70C300CDABC4 /* Assets.xcassets in Resources */,
 				C56BBD162B1F70BF00CDABC4 /* Main.storyboard in Resources */,
+				C56BBD352B1F7DCA00CDABC4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +168,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C56BBD152B1F70BF00CDABC4 /* Base */,
+				C56BBD3A2B1F7F7D00CDABC4 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -171,6 +177,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C56BBD1A2B1F70C300CDABC4 /* Base */,
+				C56BBD3B2B1F7F7D00CDABC4 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,6 +189,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -243,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -354,7 +363,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C56BBD232B1F70DD00CDABC4 /* LogoraSDK */ = {
+		C56BBD362B1F7EDF00CDABC4 /* LogoraSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LogoraSDK;
 		};
