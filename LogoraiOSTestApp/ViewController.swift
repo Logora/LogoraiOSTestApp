@@ -12,11 +12,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Page article"
-        initLayout()
+        //initLayout()
     }
     
     func initLayout() {
-        let token: String = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxMjM0IiwiZmlyc3RfbmFtZSI6ImxvdWljIiwibGFzdF9uYW1lIjoibG91aWMiLCJlbWFpbCI6ImxvdWljQGdtYWlsLmNvbSJ9.H7hNO7xR-A6SjYFdtyvzFfaV6baW976_2H1qizCt4GA"
+      /*  let token: String = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxMjM0IiwiZmlyc3RfbmFtZSI6ImxvdWljIiwibGFzdF9uYW1lIjoibG91aWMiLCJlbWFpbCI6ImxvdWljQGdtYWlsLmNvbSJ9.H7hNO7xR-A6SjYFdtyvzFfaV6baW976_2H1qizCt4GA"*/
+        let token: String = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxMjU2NyIsImZpcnN0X25hbWUiOiJTT01BWUEgQVNTQUFESSIsImxhc3RfbmFtZSI6IkFTU0FBRCIsImVtYWlsIjoiYXNzYWFkaUBnbWFpbC5jb20ifQ.d_QglgKdYsiHI2_6SSRjgYdY_mnqz54dp9AR8jiInuY"
         let widgetViewController = WidgetView(applicationName: "logora-demo-app", pageUid: "mon-article", assertion: token)
         self.addChild(widgetViewController)
         widgetViewController.view.frame = CGRect(x: 110, y: 80, width: 200, height: 250)
