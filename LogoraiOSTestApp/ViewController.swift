@@ -8,10 +8,16 @@ import UIKit
 import LogoraSDK
 
 class ViewController: UIViewController {
+    private var article: UILabel! = UILabel()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Page article"
-        initLayout()
+       initLayout()
+       /*let logoraApp = LogoraApp(applicationName: "logora-demo-app", routeName: "INDEX", routeParam: nil)
+                addChild(logoraApp)
+                view.addSubview(logoraApp.view)
+                logoraApp.didMove(toParent: self)*/
     }
     
     func initLayout() {
